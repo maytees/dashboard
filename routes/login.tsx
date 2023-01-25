@@ -1,5 +1,4 @@
 import { Head } from "$fresh/runtime.ts";
-import Counter from "../islands/Counter.tsx";
 
 export default function Home() {
   return (
@@ -7,9 +6,7 @@ export default function Home() {
       <Head>
         <title>Matees dashboard</title>
       </Head>
-      <div class="p-4 mx-auto max-w-screen-md">
-        <h1>hi</h1>
-      </div>
+      <div class="p-4 mx-auto max-w-screen-md"></div>
     </>
   );
 }
