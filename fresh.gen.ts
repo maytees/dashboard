@@ -5,19 +5,29 @@
 import config from "./deno.json" assert { type: "json" };
 import * as $0 from "./routes/[name].tsx";
 import * as $1 from "./routes/api/joke.ts";
-import * as $2 from "./routes/index.tsx";
-import * as $3 from "./routes/login.tsx";
-import * as $$0 from "./islands/Counter.tsx";
+import * as $2 from "./routes/api/login.ts";
+import * as $3 from "./routes/api/logout.ts";
+import * as $4 from "./routes/index.tsx";
+import * as $$0 from "./islands/Button.tsx";
+import * as $$1 from "./islands/Counter.tsx";
+import * as $$2 from "./islands/Dashboard.tsx";
+import * as $$3 from "./islands/ProxySettings.tsx";
+import * as $$4 from "./islands/Switch.tsx";
 
 const manifest = {
   routes: {
     "./routes/[name].tsx": $0,
     "./routes/api/joke.ts": $1,
-    "./routes/index.tsx": $2,
-    "./routes/login.tsx": $3,
+    "./routes/api/login.ts": $2,
+    "./routes/api/logout.ts": $3,
+    "./routes/index.tsx": $4,
   },
   islands: {
-    "./islands/Counter.tsx": $$0,
+    "./islands/Button.tsx": $$0,
+    "./islands/Counter.tsx": $$1,
+    "./islands/Dashboard.tsx": $$2,
+    "./islands/ProxySettings.tsx": $$3,
+    "./islands/Switch.tsx": $$4,
   },
   baseUrl: import.meta.url,
   config,
