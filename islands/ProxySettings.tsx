@@ -58,13 +58,15 @@ export default function ProxySettings() {
             <button type="submit" className={btnStyle}>
               sub
             </button>
-            {/* <Button
+            {
+              /* <Button
               text="sub"
               form="proxy-form"
               onClick={(e: { preventDefault: () => void }) => {
                 e.preventDefault();
               }}
-            /> */}
+            /> */
+            }
             <Button text="Turn off" onClick={turnOff} />
           </div>
         </div>
