@@ -22,7 +22,7 @@ export default function Home({ data }: PageProps<Session>) {
         <title>Matees dashboard</title>
       </Head>
       <main className="dark:(bg-gray-900 text-white) w-screen h-screen flex justify-center">
-        {data.active ? (
+        {!data.active ? (
           <div className="flex flex-col items-center mt-10 gap-20">
             <h1 class="text-4xl font-light">Server dashboard</h1>
             <Dashboard />
